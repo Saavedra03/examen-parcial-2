@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 10px;
+}
+
+header, section, article, footer {
+  margin: 15px;
+}
+
+section, article {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cabecera-principal {
+  background-color: #2c3e50;
+  color: #ffffff;
+  text-align: center;
+}
+
+.seccion-contenido {
+  background-color: #e2e8f0;
+}
+
+.articulo-color {
+  background-color: #a0aec0;
+  color: #1a202c;
+}
+
+.articulo-imagen {
+  background-image: url('https://picsum.photos/800/400');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.seccion-enlaces {
+  background-color: #edf2f7;
+}
+
+.seccion-enlaces ul {
+  list-style-type: square;
+}
+
+.seccion-enlaces a {
+  color: #2b6cb0;
+  font-weight: bold;
+}
+
+.btn-catalogo {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #2b6cb0;
+  color: #ffffff !important;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-catalogo:hover {
+  background-color: #2c5282;
+}
+
+.pie-principal {
+  background-color: #2d3748;
+  color: #ffffff;
+  text-align: center;
+}
+
+#catalogo {
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+.header-catalogo {
+  background-color: #1a202c;
+  color: #ffffff;
+  text-align: center;
+}
+
+.logo-proveedor {
+  width: 70px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.seccion-catalogo {
+  background-color: #cbd5e0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.producto {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e0;
+  flex: 1 1 calc(30% - 15px);
+  min-width: 200px;
+}
+
+.producto h3 {
+  margin-top: 0;
+  color: #2d3748;
+}
+
+.precio {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e53e3e;
+}
+
+.footer-catalogo {
+  background-color: #1a202c;
+  color: #ffffff;
+  text-align: center;
+}
